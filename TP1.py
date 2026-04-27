@@ -2,6 +2,7 @@
 
 def romano_a_decimal(romano):
     valores = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    romano = romano.upper()     #Agrego para las minusculas.
     if len(romano) == 0:
         return 0
     if len(romano) == 1:
@@ -12,7 +13,8 @@ def romano_a_decimal(romano):
         return valores[romano[0]] + romano_a_decimal(romano[1:])
 
 print(romano_a_decimal("III"))
-print(romano_a_decimal("XXIII"))
+print(romano_a_decimal("XXIII"))        #Mayuscula
+print(romano_a_decimal("xxiii"))        #Minuscula
 print(romano_a_decimal("MMCCCLXVIII"))
 
 # Ejercicio 22
