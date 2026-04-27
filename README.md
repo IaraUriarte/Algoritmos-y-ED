@@ -1,4 +1,8 @@
 # Algoritmos
 # TP1 - Recursividad
 
-Resolución de los ejercicios 5 al 22 en Python usando recursividad.
+Resolución de los ejercicios 5 y 22 en Python usando recursividad.
+
+# TP2 - Pila
+
+Resolución de los ejercicios 20 y 24 en Python de la guía de pila.
