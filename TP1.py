@@ -18,6 +18,7 @@ print(romano_a_decimal("xxiii"))        #Minuscula
 print(romano_a_decimal("MMCCCLXVIII"))
 
 # Ejercicio 22
+
 def usar_la_fuerza(mochila, indice=0, contador=0):
 
     if indice >= len(mochila):
