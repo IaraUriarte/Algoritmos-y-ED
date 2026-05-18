@@ -1,4 +1,4 @@
-# EJERCICIO 20
+# # EJERCICIO 20
 
 class stack:
     def __init__(self):
@@ -79,6 +79,18 @@ if __name__ == "__main__":
 
 
 # EJERCICIO 24
+class Stack:
+    def __init__(self):
+        self.items = []
+    def push(self, item):
+        self.items.append(item)
+    def pop(self):
+        if self.size() > 0:
+            return self.items.pop()
+        return None
+    def size(self):
+        return len(self.items)
+    
 def analizar_mcu(pila_pers):
     pila_aux = Stack()
     pos_rocket = -1
@@ -121,7 +133,53 @@ def analizar_mcu(pila_pers):
         "pos_rocket": pos_rocket,
         "pos_groot": pos_groot,
         "mas_de_5": mas_de_5,
-        "peliculas_viuda_negra": pelis_viuda_negra,
+        "pelis_viuda_negra": pelis_viuda_negra,
         "empiezan_c_d_g": empiezan_c_d_g
     }
+ 
+# PRUEBA
+def probar_ejercicio_24():
+    pila_mcu = Stack()
+    pila_mcu.push(("Iron Man", 4))
+    pila_mcu.push(("Capitán América", 6))
+    pila_mcu.push(("Groot", 3))
+    pila_mcu.push(("Black Widow", 10))
+    pila_mcu.push(("Doctor Strange", 5))
+    pila_mcu.push(("Rocket Raccoon", 7))
+    
+    result = analizar_mcu(pila_mcu)
 
+# RESULTADOS
+    print("Resultados del Análisis MCU: ")
+    
+    # a)
+    if result["pos_rocket"] != -1:
+        print(f"a. Rocket Raccoon está en la posición {result['pos_rocket']}.")
+    else:
+        print("a. Rocket Raccoon no está en la pila.")
+        
+    if result["pos_groot"] != -1:
+        print(f"a. Groot está en la posición {result['pos_groot']}.")
+    else:
+        print("a. Groot no está en la pila.")
+
+    # b)
+    print("b. Personajes con más de 5 películas:")
+    if result["mas_de_5"]:
+        for p in result["mas_de_5"]:
+            print(f"{p[0]} ({p[1]} películas)")
+    else:
+        print("Ninguno")
+        
+    # c)
+    print(f"c. Black Widow participó en {result['pelis_viuda_negra']} películas.")
+    
+    # d)
+    print("d. Personajes que empiezan con C, D o G:")
+    if result["empiezan_c_d_g"]:
+        for p in result["empiezan_c_d_g"]:
+            print(f"{p}")
+    else:
+        print("Ninguno")
+
+probar_ejercicio_24()
