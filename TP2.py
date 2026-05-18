@@ -85,10 +85,43 @@ def analizar_mcu(pila_pers):
     pos_groot = -1
     posicion_actual = 1
     mas_de_5 = []
-    peli_viuda_negra = 0
+    pelis_viuda_negra = 0
     empiezan_c_d_g = []
 
     while pila_pers.size() > 0:
         personaje = pila_pers.pop()
         nombre = personaje[0]
-        peli = personaje[1]
+        pelis = personaje[1]
+
+        # a)
+        if nombre == "Rocket Raccoon":
+            pos_rocket = posicion_actual
+        elif nombre == "Groot":
+            pos_groot = posicion_actual
+
+        # b)
+        if pelis > 5:
+            mas_de_5.append((nombre, pelis))
+
+        # c)
+        if nombre in ["Black Widow", "Viuda Negra"]:
+            pelis_viuda_negra = pelis
+
+        # d)
+        if nombre and nombre[0].upper() in ['C', 'D', 'G']:
+            empiezan_c_d_g.append(nombre)
+
+        pila_aux.push(personaje)
+        posicion_actual += 1
+
+    while pila_aux.size() > 0:
+        pila_pers.push(pila_aux.pop())
+
+    return {
+        "pos_rocket": pos_rocket,
+        "pos_groot": pos_groot,
+        "mas_de_5": mas_de_5,
+        "peliculas_viuda_negra": pelis_viuda_negra,
+        "empiezan_c_d_g": empiezan_c_d_g
+    }
+
