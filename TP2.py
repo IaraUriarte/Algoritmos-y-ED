@@ -79,3 +79,16 @@ if __name__ == "__main__":
 
 
 # EJERCICIO 24
+def analizar_mcu(pila_pers):
+    pila_aux = Stack()
+    pos_rocket = -1
+    pos_groot = -1
+    posicion_actual = 1
+    mas_de_5 = []
+    peli_viuda_negra = 0
+    empiezan_c_d_g = []
+
+    while pila_pers.size() > 0:
+        personaje = pila_pers.pop()
+        nombre = personaje[0]
+        peli = personaje[1]
