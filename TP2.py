@@ -1,93 +1,103 @@
-# # EJERCICIO 20
+# EJERCICIO 20
 
-class stack:
-    def __init__(self):
-        self.__elements = []
+# class stack:
+#     def __init__(self):
+#         self.__elements = []
 
-    def push(self, value):
-        self.__elements.append(value)
+#     def push(self, value):
+#         self.__elements.append(value)
 
-    def pop(self):
-        return self.__elements.pop()
+#     def pop(self):
+#         return self.__elements.pop()
     
-    def size(self):
-        return len(self.__elements)
+#     def size(self):
+#         return len(self.__elements)
     
-    def show(self):
-        print(self.__elements)
+#     def show(self):
+#         print(self.__elements)
 
-def reg_mov():
-    pila_mov = stack()
-    print("Anotador de los pasos del robot")
-    print("Opciones de dirección: norte, noreste, este, sureste, sur, suroeste, oeste, noroeste")
-    print("Escriba 'fin' en la cantidad de pasos para terminar el registro.")
+# def reg_mov():
+#     pila_mov = stack()
+#     print()
+#     print("Anotador de los pasos del robot")
+#     print("Opciones de dirección: norte, noreste, este, sureste, sur, suroeste, oeste, noroeste")
+#     print("Escriba 'fin' en la cantidad de pasos para terminar el registro.")
 
-    while True:
-        entrada_pasos = input("Cantidad de pasos ('fin' para terminar): ").strip().lower()
-        if entrada_pasos == 'fin':
-            break
+#     while True:
+#         entrada_pasos = input("Cantidad de pasos ('fin' para terminar): ").strip().lower()
+#         if entrada_pasos == 'fin':
+#             break
 
-        try:
-            pasos = int(entrada_pasos)
-        except(ValueError):
-            print("Ingrese un número válido")
-            continue
+#         try:
+#             pasos = int(entrada_pasos)
+#         except(ValueError):
+#             print()
+#             print("Ingrese un número válido")
+#             continue
 
-        direc = input("Dirección: ").strip().lower()
-        direc_validas = ['norte', 'noreste', 'este', 'sureste', 'sur', 'suroeste', 'oeste', 'noroeste']
+#         direc = input("Dirección: ").strip().lower()
+#         direc_validas = ['norte', 'noreste', 'este', 'sureste', 'sur', 'suroeste', 'oeste', 'noroeste']
 
-        if direc not in direc_validas:
-            print(f"Dirección '{direc}' no válida. Intente de nuevo")
-            continue
+#         if direc not in direc_validas:
+#             print()
+#             print(f"Dirección '{direc}' no válida. Intente de nuevo")
+#             continue
 
-        pila_mov.push((pasos, direc))
-        print(f"Movimiento registrado: {pasos} pasos hacia el {direc}.")
+#         pila_mov.push((pasos, direc))
+#         print(f"Movimiento registrado: {pasos} pasos hacia el {direc}.")
 
-    return(pila_mov)
-    
-def retorno_robot(pila_mov):
-    opuestas = {
-        'norte': 'sur',
-        'sur': 'norte',
-        'este': 'oeste',
-        'oeste': 'este',
-        'noreste': 'suroeste',
-        'suroeste': 'noreste',
-        'noroeste': 'sureste',
-        'sureste': 'noroeste'
-    }
+#     return(pila_mov)
 
-    print("Secuencia de retorno al punto de partida")
-    if pila_mov.size() == 0:
-        print("El robot no se movio, ya esta en el punto de partida")
-        return
+# print()
+# def retorno_robot(pila_mov):
+#     opuestas = {
+#         'norte': 'sur',
+#         'sur': 'norte',
+#         'este': 'oeste',
+#         'oeste': 'este',
+#         'noreste': 'suroeste',
+#         'suroeste': 'noreste',
+#         'noroeste': 'sureste',
+#         'sureste': 'noroeste'
+#     }
+
+#     print("Secuencia de retorno al punto de partida")
+#     if pila_mov.size() == 0:
+#         print("El robot no se movio, ya esta en el punto de partida")
+#         return
         
-    while pila_mov.size() > 0:
-        pasos, direc = pila_mov.pop()
-        direc_opuesta = opuestas[direc]
-        print(f"Mover {pasos} pasos hacie el {direc_opuesta}")
+#     while pila_mov.size() > 0:
+#         pasos, direc = pila_mov.pop()
+#         direc_opuesta = opuestas[direc]
+#         print(f"Mover {pasos} pasos hacia el {direc_opuesta}")
 
-    print("El robot ha regresado al lugar de partida")
+#     print("El robot ha regresado al lugar de partida")
 
 
 # BLOQUE PRINCIPAL
-if __name__ == "__main__":
-    movimientos = reg_mov()
-    print("Pila de movimientos")
-    movimientos.show()
-    retorno_robot(movimientos)
+# if __name__ == "__main__":
+#     movimientos = reg_mov()
+#     print()
+#     print("Pila de movimientos")
+#     movimientos.show()
+#     retorno_robot(movimientos)
+#     print()
 
 
 # EJERCICIO 24
+
 class Stack:
     def __init__(self):
         self.items = []
+
     def push(self, item):
         self.items.append(item)
+
     def pop(self):
         if self.size() > 0:
             return self.items.pop()
         return None
+    
     def size(self):
         return len(self.items)
     
@@ -151,7 +161,8 @@ def probar_ejercicio_24():
 
 # RESULTADOS
     print("Resultados del Análisis MCU: ")
-    
+    print()
+
     # a)
     if result["pos_rocket"] != -1:
         print(f"a. Rocket Raccoon está en la posición {result['pos_rocket']}.")
@@ -164,6 +175,7 @@ def probar_ejercicio_24():
         print("a. Groot no está en la pila.")
 
     # b)
+    print()
     print("b. Personajes con más de 5 películas:")
     if result["mas_de_5"]:
         for p in result["mas_de_5"]:
@@ -172,9 +184,11 @@ def probar_ejercicio_24():
         print("Ninguno")
         
     # c)
+    print()
     print(f"c. Black Widow participó en {result['pelis_viuda_negra']} películas.")
     
     # d)
+    print()
     print("d. Personajes que empiezan con C, D o G:")
     if result["empiezan_c_d_g"]:
         for p in result["empiezan_c_d_g"]:
