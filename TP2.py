@@ -3,8 +3,10 @@
 class Stack:
     def __init__(self):
         self.items = []
+
     def push(self, value):
         self.items.append(value)
+        
     def pop(self):
         if self.size() > 0:
             return self.items.pop()
