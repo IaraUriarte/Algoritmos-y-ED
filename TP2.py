@@ -39,3 +39,8 @@ class stack:
             if direc not in direc_validas:
                 print(f"Dirección '{direc}' no válida. Intente de nuevo")
                 continue
+
+            pila_mov.push((pasos, direc))
+            print(f"Movimiento registrado: {pasos} pasos hacia el {direc}.\n")
+
+        return(pila_mov)
