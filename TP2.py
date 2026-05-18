@@ -2,21 +2,22 @@
 
 class Stack:
     def __init__(self):
-        self.items = []
+        self.__elements = [] 
 
     def push(self, value):
-        self.items.append(value)
-        
+        self.__elements.append(value)
+
     def pop(self):
         if self.size() > 0:
-            return self.items.pop()
+            return self.__elements.pop()
         return None
     
     def size(self):
-        return len(self.items)
+        return len(self.__elements)
     
     def show(self):
-        print(self.items)
+        print(self.__elements)
+
 
 def reg_mov():
     pila_mov = Stack()
