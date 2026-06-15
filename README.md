@@ -9,5 +9,5 @@ Resolución de los ejercicios 20 y 24.
 
 # TP3 - Cola
 
-Resolución del ejercicio 10.
+Resolución de los ejercicios 10 y 22.
 
