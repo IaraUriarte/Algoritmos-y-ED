@@ -249,3 +249,4 @@ if __name__ == "__main__":
         print(f"Sí, su nombre de superhéroe es: {heroe}")
     else:
         print("No se encuentra en la cola.")
+

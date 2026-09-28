@@ -1,4 +1,5 @@
 # Algoritmos
+
 # TP1 - Recursividad
 
 Resolución de los ejercicios 5 y 22.
@@ -11,3 +12,6 @@ Resolución de los ejercicios 20 y 24.
 
 Resolución de los ejercicios 10 y 22.
 
+## TP4 - Lista
+
+Resolución de los ejercicios 6 y 15.
