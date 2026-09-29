@@ -159,7 +159,86 @@ def contar_superheroes_por_casa(lista):
     for casa, cantidad in conteo.items():
         print(f"{casa}: {cantidad}")
 
+# BLOQUE PRINCIPAL 
+if __name__ == "__main__":
+    lista_superheroes = Lista()
 
+    # Datos de prueba
+    superheroes = [
+        {
+            "nombre": "Linterna Verde",
+            "anio_aparicion": 1940,
+            "casa": "DC",
+            "biografia": "Miembro de los Green Lantern Corps que posee un anillo de poder y usa un traje verde."
+        },
+        {
+            "nombre": "Wolverine",
+            "anio_aparicion": 1974,
+            "casa": "Marvel",
+            "biografia": "Mutante con factor de curación y garras de adamantium."
+        },
+        {
+            "nombre": "Dr. Strange",
+            "anio_aparicion": 1963,
+            "casa": "DC",
+            "biografia": "Hechicero supremo protector de la Tierra que viste túnica y capa mística."
+        },
+        {
+            "nombre": "Capitana Marvel",
+            "anio_aparicion": 1968,
+            "casa": "Marvel",
+            "biografia": "Carol Danvers, heroína cósmica que viste un traje espacial de combate."
+        },
+        {
+            "nombre": "Mujer Maravilla",
+            "anio_aparicion": 1941,
+            "casa": "DC",
+            "biografia": "Princesa amazona de Temiscira que combate con su armadura dorada y el lazo de la verdad."
+        },
+        {
+            "nombre": "Flash",
+            "anio_aparicion": 1940,
+            "casa": "DC",
+            "biografia": "Barry Allen, el hombre más rápido del mundo que usa un traje rojo especial."
+        },
+        {
+            "nombre": "Star-Lord",
+            "anio_aparicion": 1976,
+            "casa": "Marvel",
+            "biografia": "Peter Quill, líder de los Guardianes de la Galaxia con armadura ligera y blasters."
+        },
+        {
+            "nombre": "Batman",
+            "anio_aparicion": 1939,
+            "casa": "DC",
+            "biografia": "El caballero de la noche de Gotham que combate el crimen con su traje y tecnología."
+        },
+        {
+            "nombre": "Superman",
+            "anio_aparicion": 1938,
+            "casa": "DC",
+            "biografia": "El último hijo de Krypton, defensor de la justicia."
+        }
+    ]
+
+    for sh in superheroes:
+        lista_superheroes.insertar(sh)
+
+    print("a. Eliminar a Linterna Verde")
+    eliminar_linterna_verde(lista_superheroes)
+    print()
+
+    print("b. Mostrar año de aparición de Wolverine")
+    mostrar_anio_wolverine(lista_superheroes)
+    print()
+
+    print("c. Cambiar casa de Dr. Strange")
+    cambiar_casa_dr_strange(lista_superheroes)
+    print()
+
+    print("d. Mostrar superhéroes con traje o armadura en su biografía")
+    mostrar_heroes_con_traje_o_armadura(lista_superheroes)
+    print()
 
 
 
