@@ -240,6 +240,25 @@ if __name__ == "__main__":
     mostrar_heroes_con_traje_o_armadura(lista_superheroes)
     print()
 
+    print("e. Mostrar superhéroes anteriores a 1963")
+    mostrar_heroes_anteriores_1963(lista_superheroes)
+    print()
+
+    print("f. Mostrar casa de Capitana Marvel y Mujer Maravilla")
+    mostrar_casa_capitana_y_mujer_maravilla(lista_superheroes)
+    print()
+
+    print("g. Mostrar información detallada de Flash y Star-Lord")
+    mostrar_info_flash_y_starlord(lista_superheroes)
+    print()
+
+    print("h. Listar superhéroes cuyos nombres comienzan con B, M o S")
+    listar_heroes_letras_b_m_s(lista_superheroes)
+    print()
+
+    print("i. Cantidad de superhéroes por casa de comic")
+    contar_superheroes_por_casa(lista_superheroes)
+    print()
 
 
 
