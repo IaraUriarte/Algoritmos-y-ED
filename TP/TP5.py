@@ -32,3 +32,28 @@ def borrar_nodo(arbol, nombre):
     if pred is not None:
         arbol.search(pred_value).other_values = pred_other
     return valor, otros
+    
+def ejercicio_5():
+    print("Ejercicio 5: superheroes y villanos de MCU")
+ 
+    # a) Cargar el árbol
+    arbol = BinaryTree()
+    for c in superheroes:
+        arbol.insert_node(c['name'], other_value=c)
+    print()
+    print("a. Árbol cargado")
+    print(f"Cantidad total de elementos: {len(superheroes)}")
+ 
+    # b) Villanos ordenados alfabéticamente
+    print()
+    print("b. Villanos ordenados alfabéticamente")
+    for nodo in inorden(arbol.root):
+        if es_villano(nodo):
+            print(" ", nodo.value)
+ 
+    # c) Superhéroes que empiezan con C
+    print()
+    print("c. Superhéroes que empiezan con 'C'")
+    for nodo in inorden(arbol.root):
+        if not es_villano(nodo) and nodo.value.startswith('C'):
+            print(" ", nodo.value)
