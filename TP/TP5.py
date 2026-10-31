@@ -57,3 +57,30 @@ def ejercicio_5():
     for nodo in inorden(arbol.root):
         if not es_villano(nodo) and nodo.value.startswith('C'):
             print(" ", nodo.value)
+
+    # d) Cantidad de superhéroes
+    print()
+    print("d. Cantidad de superhéroes")
+    cant = sum(1 for n in inorden(arbol.root) if not es_villano(n))
+    print(f"Cantidad de héroes: {cant}")
+ 
+    # e) Búsqueda por proximidad de "strange" y corrección del nombre
+    print()
+    print("e. Búsqueda por proximidad y modificación ---")
+    encontrados = [n.value for n in inorden(arbol.root)
+                   if 'strange' in n.value.lower()]
+    for nombre in encontrados:
+        print(" Encontrado:", nombre)
+ 
+    for nombre in encontrados:
+        _, datos = borrar_nodo(arbol, nombre)
+        datos['name'] = "Doctor Strange"
+        arbol.insert_node("Doctor Strange", other_value=datos)
+        print(f" '{nombre}' modificado a 'Doctor Strange'")
+ 
+    # f) Superhéroes en orden descendente
+    print()
+    print("f. Superhéroes en orden descendente")
+    for nodo in inorden_inverso(arbol.root):
+        if not es_villano(nodo):
+            print(" ", nodo.value)
