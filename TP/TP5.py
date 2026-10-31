@@ -248,7 +248,7 @@ def ejercicio_23():
         aves.other_values.description += " Heracles derrotó a varias."
         imprimir_informacion_criatura(aves.other_values)
  
-    # l) Cambiar el nombre de Ladón por Dragón Ladón
+    # l) Cambiar nombre de Ladón a Dragón Ladón
     print()
     print("l. Renombrar 'Ladón' a 'Dragón Ladón'")
     valor, criatura = borrar_nodo(arbol, "Ladón")
