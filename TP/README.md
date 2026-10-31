@@ -12,6 +12,10 @@ Resolución de los ejercicios 20 y 24.
 
 Resolución de los ejercicios 10 y 22.
 
-## TP4 - Lista
+# TP4 - Lista
 
 Resolución de los ejercicios 6 y 15.
+
+# TP5 - Árbol
+
+Resolución de los ejercicios 5 y 23.
