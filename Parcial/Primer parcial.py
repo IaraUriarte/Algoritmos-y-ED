@@ -1,6 +1,6 @@
 # EJERCICIO 1: Busqueda y listado de superhéroes.
 
-from list_ import List
+from Parcial.list_ import List
 
 nombres_superH = [
     "HombreAraña", "Ironman", "CapitanAmerica", 
@@ -43,7 +43,7 @@ print()
 
 from super_heroes_data import superheroes
 from collections import deque
-from list_ import List
+from Parcial.list_ import List
 
 class Personaje:
     def __init__(self, data):

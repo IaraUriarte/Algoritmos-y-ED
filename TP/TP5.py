@@ -1,5 +1,10 @@
 # EJERCICIO 5
 
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from tree import BinaryTree
 from super_heroes_data import superheroes
   
@@ -66,7 +71,7 @@ def ejercicio_5():
  
     # e) Búsqueda por proximidad de "strange" y corrección del nombre
     print()
-    print("e. Búsqueda por proximidad y modificación ---")
+    print("e. Búsqueda por proximidad y modificación")
     encontrados = [n.value for n in inorden(arbol.root)
                    if 'strange' in n.value.lower()]
     for nombre in encontrados:
@@ -84,3 +89,33 @@ def ejercicio_5():
     for nodo in inorden_inverso(arbol.root):
         if not es_villano(nodo):
             print(" ", nodo.value)
+
+    # g) Bosque: un árbol con los héroes y otro con los villanos
+    arbol_heroes = BinaryTree()
+    arbol_villanos = BinaryTree()
+    for nodo in inorden(arbol.root):
+        destino = arbol_villanos if es_villano(nodo) else arbol_heroes
+        destino.insert_node(nodo.value, other_value=nodo.other_values)
+ 
+    print()
+    print("g. I Cantidad de nodos de cada árbol")
+    print("Héroes:  ", sum(1 for _ in inorden(arbol_heroes.root)))
+    print("Villanos:", sum(1 for _ in inorden(arbol_villanos.root)))
+
+    print()
+    print("g. II Barrido alfabético de Héroes")
+    for nodo in inorden(arbol_heroes.root):
+        print(" ", nodo.value)
+ 
+    print()
+    print("g. II Barrido alfabético de Villanos")
+    for nodo in inorden(arbol_villanos.root):
+        print(" ", nodo.value)
+ 
+ 
+def main():
+    ejercicio_5()
+ 
+ 
+if __name__ == "__main__":
+    main()

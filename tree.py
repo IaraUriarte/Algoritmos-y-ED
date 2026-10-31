@@ -1,7 +1,7 @@
 
+from collections import deque
 from typing import Any, Optional
 
-from queue_ import Queue
 class Node():
 
     def __init__(self, value=None, other_values=None):
@@ -198,21 +198,21 @@ class BinaryTree():
 
     def by_level(self) -> None:
 
-        pendings = Queue()
+        pendings = deque()
 
         if self.root is not None:
-            pendings.arrive(self.root)
+            pendings.append(self.root)
             # print(f'queue')
             # pendings.show()
             # input()
-            while pendings.size() > 0:
-                node = pendings.attention()
+            while pendings:
+                node = pendings.popleft()
                 print(node.value)
                 # input()
                 if node.left is not None:
-                    pendings.arrive(node.left)
+                    pendings.append(node.left)
                 if node.right is not None:
-                    pendings.arrive(node.right)
+                    pendings.append(node.right)
                 # print(f'queue ')
                 # pendings.show()
                 # input()
@@ -288,7 +288,6 @@ class BinaryTree():
 #     def __str__(self):
 #         return f"{self.ape} {self.nom} {self.dni}"
 
-arbol = BinaryTree()
 # arbol_ape = BinaryTree()
 
 # p1 = Persona('Pepito', 'Gonzalez', 23)
@@ -311,9 +310,6 @@ arbol = BinaryTree()
 # arbol.insert_node('F')
 # arbol.insert_node('P')
 # arbol.insert_node('R')
-for i in range (1, 13):
-    arbol.insert_node(i)
-
 # arbol.inorden()
 # print()
 # arbol.root = arbol.auto_balance(arbol.root)
@@ -323,11 +319,16 @@ for i in range (1, 13):
 
 # print(arbol.root.right.left.value)
 
-arbol.delete_node(12)
-arbol.delete_node(11)
-arbol.delete_node(9)
+if __name__ == "__main__":
+    arbol = BinaryTree()
+    for i in range(1, 13):
+        arbol.insert_node(i)
 
-arbol.preorden()
+    arbol.delete_node(12)
+    arbol.delete_node(11)
+    arbol.delete_node(9)
+
+    arbol.preorden()
 
 
             
