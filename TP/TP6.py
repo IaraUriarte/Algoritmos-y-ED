@@ -37,6 +37,43 @@ CONEXIONES = (
     (3, "Switch 2", "Fedora"),
 )
 
+AMBIENTES = (
+    "cocina",
+    "comedor",
+    "cochera",
+    "quincho",
+    "baño 1",
+    "baño 2",
+    "habitación 1",
+    "habitación 2",
+    "sala de estar",
+    "terraza",
+    "patio",
+)
+
+CONEXIONES_CASA = (
+    (4, "cocina", "comedor"),
+    (9, "cocina", "cochera"),
+    (3, "cocina", "baño 1"),
+    (7, "cocina", "sala de estar"),
+    (12, "cocina", "patio"),
+    (10, "comedor", "quincho"),
+    (5, "comedor", "baño 1"),
+    (6, "comedor", "sala de estar"),
+    (8, "comedor", "patio"),
+    (7, "cochera", "quincho"),
+    (6, "cochera", "patio"),
+    (8, "quincho", "terraza"),
+    (6, "baño 1", "habitación 1"),
+    (4, "baño 2", "habitación 1"),
+    (5, "habitación 1", "habitación 2"),
+    (11, "habitación 1", "terraza"),
+    (3, "baño 2", "habitación 2"),
+    (9, "baño 2", "sala de estar"),
+    (7, "habitación 2", "terraza"),
+    (10, "sala de estar", "patio"),
+)
+
 
 def cargar_red() -> Graph:
     # h) La red se modela como un grafo no dirigido.
@@ -49,6 +86,17 @@ def cargar_red() -> Graph:
 
     for peso, origen, destino in CONEXIONES:
         grafo.add_edge(peso, origen, destino)
+
+    return grafo
+
+
+def cargar_casa() -> Graph:
+    grafo = Graph(is_dir=False)
+    for ambiente in AMBIENTES:
+        grafo.add_vertex(ambiente)
+
+    for distancia, origen, destino in CONEXIONES_CASA:
+        grafo.add_edge(distancia, origen, destino)
 
     return grafo
 
@@ -156,5 +204,37 @@ def ejercicio_5() -> None:
     mostrar_barridos(grafo, ("Red Hat", "Debian", "Arch"))
 
 
+def ejercicio_14() -> None:
+    grafo = cargar_casa()
+
+    print()
+    print("Ejercicio 14 - Ambientes de la casa")
+
+    print()
+    print("a) Vértices (ambientes):")
+    print("  " + ", ".join(AMBIENTES))
+
+    print()
+    print("b) Aristas cargadas por ambiente:")
+    for vertice in grafo:
+        print(f"  {vertice.value}: {len(vertice.edges)}")
+
+    print()
+    print("c) Árbol de expansión mínima:")
+    arbol = grafo.kruskal("cocina")
+    peso_total = 0
+    for conexion in arbol.split(";"):
+        origen, destino, distancia = conexion.rsplit("-", 2)
+        print(f"  {origen} - {destino}: {distancia} m")
+        peso_total += int(distancia)
+    print(f"  Cable total: {peso_total} m")
+
+    print()
+    print("d) Cable de red desde el router en habitación 1 hasta la Smart TV en sala de estar:")
+    distancia, camino = camino_minimo(grafo, "habitación 1", "sala de estar")
+    print(f"  {' -> '.join(camino)}: {distancia} m")
+
+
 if __name__ == "__main__":
     ejercicio_5()
+    ejercicio_14()
