@@ -203,6 +203,7 @@ def ejercicio_5() -> None:
     grafo.add_edge(22, "Router 2", "Impresora")
     mostrar_barridos(grafo, ("Red Hat", "Debian", "Arch"))
 
+# EJERCICIO 14
 
 def ejercicio_14() -> None:
     grafo = cargar_casa()
