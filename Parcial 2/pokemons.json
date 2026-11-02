@@ -1,0 +1,2180 @@
+[
+  {
+    "nombre": "Bulbasaur",
+    "numero": 1,
+    "tipos": [
+      "planta",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "fuego",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Ivysaur",
+    "numero": 2,
+    "tipos": [
+      "planta",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "fuego",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Venusaur",
+    "numero": 3,
+    "tipos": [
+      "planta",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "fuego",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": true,
+    "gigamax": true
+  },
+  {
+    "nombre": "Charmander",
+    "numero": 4,
+    "tipos": [
+      "fuego"
+    ],
+    "debilidades": [
+      "tierra",
+      "roca",
+      "agua"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Charmeleon",
+    "numero": 5,
+    "tipos": [
+      "fuego"
+    ],
+    "debilidades": [
+      "tierra",
+      "roca",
+      "agua"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Charizard",
+    "numero": 6,
+    "tipos": [
+      "fuego",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "agua",
+      "eléctrico"
+    ],
+    "megaevolucion": true,
+    "gigamax": true
+  },
+  {
+    "nombre": "Squirtle",
+    "numero": 7,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Wartortle",
+    "numero": 8,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Blastoise",
+    "numero": 9,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": true,
+    "gigamax": true
+  },
+  {
+    "nombre": "Caterpie",
+    "numero": 10,
+    "tipos": [
+      "bicho"
+    ],
+    "debilidades": [
+      "volador",
+      "roca",
+      "fuego"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Metapod",
+    "numero": 11,
+    "tipos": [
+      "bicho"
+    ],
+    "debilidades": [
+      "volador",
+      "roca",
+      "fuego"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Butterfree",
+    "numero": 12,
+    "tipos": [
+      "bicho",
+      "volador"
+    ],
+    "debilidades": [
+      "volador",
+      "roca",
+      "fuego",
+      "eléctrico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": true
+  },
+  {
+    "nombre": "Weedle",
+    "numero": 13,
+    "tipos": [
+      "bicho",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "roca",
+      "fuego",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Kakuna",
+    "numero": 14,
+    "tipos": [
+      "bicho",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "roca",
+      "fuego",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Beedrill",
+    "numero": 15,
+    "tipos": [
+      "bicho",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "roca",
+      "fuego",
+      "psíquico"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Pidgey",
+    "numero": 16,
+    "tipos": [
+      "normal",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "eléctrico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Pidgeotto",
+    "numero": 17,
+    "tipos": [
+      "normal",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "eléctrico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Pidgeot",
+    "numero": 18,
+    "tipos": [
+      "normal",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "eléctrico",
+      "hielo"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Rattata",
+    "numero": 19,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Raticate",
+    "numero": 20,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Spearow",
+    "numero": 21,
+    "tipos": [
+      "normal",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "eléctrico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Fearow",
+    "numero": 22,
+    "tipos": [
+      "normal",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "eléctrico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Ekans",
+    "numero": 23,
+    "tipos": [
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Arbok",
+    "numero": 24,
+    "tipos": [
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Pikachu",
+    "numero": 25,
+    "tipos": [
+      "eléctrico"
+    ],
+    "debilidades": [
+      "tierra"
+    ],
+    "megaevolucion": false,
+    "gigamax": true
+  },
+  {
+    "nombre": "Raichu",
+    "numero": 26,
+    "tipos": [
+      "eléctrico"
+    ],
+    "debilidades": [
+      "tierra"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Sandshrew",
+    "numero": 27,
+    "tipos": [
+      "tierra"
+    ],
+    "debilidades": [
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Sandslash",
+    "numero": 28,
+    "tipos": [
+      "tierra"
+    ],
+    "debilidades": [
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Nidoran♀",
+    "numero": 29,
+    "tipos": [
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Nidorina",
+    "numero": 30,
+    "tipos": [
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Nidoqueen",
+    "numero": 31,
+    "tipos": [
+      "veneno",
+      "tierra"
+    ],
+    "debilidades": [
+      "tierra",
+      "agua",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Nidoran♂",
+    "numero": 32,
+    "tipos": [
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Nidorino",
+    "numero": 33,
+    "tipos": [
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Nidoking",
+    "numero": 34,
+    "tipos": [
+      "veneno",
+      "tierra"
+    ],
+    "debilidades": [
+      "tierra",
+      "agua",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Clefairy",
+    "numero": 35,
+    "tipos": [
+      "hada"
+    ],
+    "debilidades": [
+      "veneno",
+      "acero"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Clefable",
+    "numero": 36,
+    "tipos": [
+      "hada"
+    ],
+    "debilidades": [
+      "veneno",
+      "acero"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Vulpix",
+    "numero": 37,
+    "tipos": [
+      "fuego"
+    ],
+    "debilidades": [
+      "tierra",
+      "roca",
+      "agua"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Ninetales",
+    "numero": 38,
+    "tipos": [
+      "fuego"
+    ],
+    "debilidades": [
+      "tierra",
+      "roca",
+      "agua"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Jigglypuff",
+    "numero": 39,
+    "tipos": [
+      "normal",
+      "hada"
+    ],
+    "debilidades": [
+      "veneno",
+      "acero"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Wigglytuff",
+    "numero": 40,
+    "tipos": [
+      "normal",
+      "hada"
+    ],
+    "debilidades": [
+      "veneno",
+      "acero"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Zubat",
+    "numero": 41,
+    "tipos": [
+      "veneno",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "eléctrico",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Golbat",
+    "numero": 42,
+    "tipos": [
+      "veneno",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "eléctrico",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Oddish",
+    "numero": 43,
+    "tipos": [
+      "planta",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "fuego",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Gloom",
+    "numero": 44,
+    "tipos": [
+      "planta",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "fuego",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Vileplume",
+    "numero": 45,
+    "tipos": [
+      "planta",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "fuego",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Paras",
+    "numero": 46,
+    "tipos": [
+      "bicho",
+      "planta"
+    ],
+    "debilidades": [
+      "volador",
+      "veneno",
+      "roca",
+      "bicho",
+      "fuego",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Parasect",
+    "numero": 47,
+    "tipos": [
+      "bicho",
+      "planta"
+    ],
+    "debilidades": [
+      "volador",
+      "veneno",
+      "roca",
+      "bicho",
+      "fuego",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Venonat",
+    "numero": 48,
+    "tipos": [
+      "bicho",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "roca",
+      "fuego",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Venomoth",
+    "numero": 49,
+    "tipos": [
+      "bicho",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "roca",
+      "fuego",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Diglett",
+    "numero": 50,
+    "tipos": [
+      "tierra"
+    ],
+    "debilidades": [
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Dugtrio",
+    "numero": 51,
+    "tipos": [
+      "tierra"
+    ],
+    "debilidades": [
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Meowth",
+    "numero": 52,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": false,
+    "gigamax": true
+  },
+  {
+    "nombre": "Persian",
+    "numero": 53,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Psyduck",
+    "numero": 54,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Golduck",
+    "numero": 55,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Mankey",
+    "numero": 56,
+    "tipos": [
+      "lucha"
+    ],
+    "debilidades": [
+      "volador",
+      "psíquico",
+      "hada"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Primeape",
+    "numero": 57,
+    "tipos": [
+      "lucha"
+    ],
+    "debilidades": [
+      "volador",
+      "psíquico",
+      "hada"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Growlithe",
+    "numero": 58,
+    "tipos": [
+      "fuego"
+    ],
+    "debilidades": [
+      "tierra",
+      "roca",
+      "agua"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Arcanine",
+    "numero": 59,
+    "tipos": [
+      "fuego"
+    ],
+    "debilidades": [
+      "tierra",
+      "roca",
+      "agua"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Poliwag",
+    "numero": 60,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Poliwhirl",
+    "numero": 61,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Poliwrath",
+    "numero": 62,
+    "tipos": [
+      "agua",
+      "lucha"
+    ],
+    "debilidades": [
+      "volador",
+      "planta",
+      "eléctrico",
+      "psíquico",
+      "hada"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Abra",
+    "numero": 63,
+    "tipos": [
+      "psíquico"
+    ],
+    "debilidades": [
+      "bicho",
+      "fantasma",
+      "siniestro"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Kadabra",
+    "numero": 64,
+    "tipos": [
+      "psíquico"
+    ],
+    "debilidades": [
+      "bicho",
+      "fantasma",
+      "siniestro"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Alakazam",
+    "numero": 65,
+    "tipos": [
+      "psíquico"
+    ],
+    "debilidades": [
+      "bicho",
+      "fantasma",
+      "siniestro"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Machop",
+    "numero": 66,
+    "tipos": [
+      "lucha"
+    ],
+    "debilidades": [
+      "volador",
+      "psíquico",
+      "hada"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Machoke",
+    "numero": 67,
+    "tipos": [
+      "lucha"
+    ],
+    "debilidades": [
+      "volador",
+      "psíquico",
+      "hada"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Machamp",
+    "numero": 68,
+    "tipos": [
+      "lucha"
+    ],
+    "debilidades": [
+      "volador",
+      "psíquico",
+      "hada"
+    ],
+    "megaevolucion": false,
+    "gigamax": true
+  },
+  {
+    "nombre": "Bellsprout",
+    "numero": 69,
+    "tipos": [
+      "planta",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "fuego",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Weepinbell",
+    "numero": 70,
+    "tipos": [
+      "planta",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "fuego",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Victreebel",
+    "numero": 71,
+    "tipos": [
+      "planta",
+      "veneno"
+    ],
+    "debilidades": [
+      "volador",
+      "fuego",
+      "psíquico",
+      "hielo"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Tentacool",
+    "numero": 72,
+    "tipos": [
+      "agua",
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "eléctrico",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Tentacruel",
+    "numero": 73,
+    "tipos": [
+      "agua",
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "eléctrico",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Geodude",
+    "numero": 74,
+    "tipos": [
+      "roca",
+      "tierra"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "acero",
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Graveler",
+    "numero": 75,
+    "tipos": [
+      "roca",
+      "tierra"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "acero",
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Golem",
+    "numero": 76,
+    "tipos": [
+      "roca",
+      "tierra"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "acero",
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Ponyta",
+    "numero": 77,
+    "tipos": [
+      "fuego"
+    ],
+    "debilidades": [
+      "tierra",
+      "roca",
+      "agua"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Rapidash",
+    "numero": 78,
+    "tipos": [
+      "fuego"
+    ],
+    "debilidades": [
+      "tierra",
+      "roca",
+      "agua"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Slowpoke",
+    "numero": 79,
+    "tipos": [
+      "agua",
+      "psíquico"
+    ],
+    "debilidades": [
+      "bicho",
+      "fantasma",
+      "planta",
+      "eléctrico",
+      "siniestro"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Slowbro",
+    "numero": 80,
+    "tipos": [
+      "agua",
+      "psíquico"
+    ],
+    "debilidades": [
+      "bicho",
+      "fantasma",
+      "planta",
+      "eléctrico",
+      "siniestro"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Magnemite",
+    "numero": 81,
+    "tipos": [
+      "eléctrico",
+      "acero"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "fuego"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Magneton",
+    "numero": 82,
+    "tipos": [
+      "eléctrico",
+      "acero"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "fuego"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Farfetch’d",
+    "numero": 83,
+    "tipos": [
+      "normal",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "eléctrico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Doduo",
+    "numero": 84,
+    "tipos": [
+      "normal",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "eléctrico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Dodrio",
+    "numero": 85,
+    "tipos": [
+      "normal",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "eléctrico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Seel",
+    "numero": 86,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Dewgong",
+    "numero": 87,
+    "tipos": [
+      "agua",
+      "hielo"
+    ],
+    "debilidades": [
+      "lucha",
+      "roca",
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Grimer",
+    "numero": 88,
+    "tipos": [
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Muk",
+    "numero": 89,
+    "tipos": [
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Shellder",
+    "numero": 90,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Cloyster",
+    "numero": 91,
+    "tipos": [
+      "agua",
+      "hielo"
+    ],
+    "debilidades": [
+      "lucha",
+      "roca",
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Gastly",
+    "numero": 92,
+    "tipos": [
+      "fantasma",
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "fantasma",
+      "psíquico",
+      "siniestro"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Haunter",
+    "numero": 93,
+    "tipos": [
+      "fantasma",
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "fantasma",
+      "psíquico",
+      "siniestro"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Gengar",
+    "numero": 94,
+    "tipos": [
+      "fantasma",
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "fantasma",
+      "psíquico",
+      "siniestro"
+    ],
+    "megaevolucion": true,
+    "gigamax": true
+  },
+  {
+    "nombre": "Onix",
+    "numero": 95,
+    "tipos": [
+      "roca",
+      "tierra"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "acero",
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Drowzee",
+    "numero": 96,
+    "tipos": [
+      "psíquico"
+    ],
+    "debilidades": [
+      "bicho",
+      "fantasma",
+      "siniestro"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Hypno",
+    "numero": 97,
+    "tipos": [
+      "psíquico"
+    ],
+    "debilidades": [
+      "bicho",
+      "fantasma",
+      "siniestro"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Krabby",
+    "numero": 98,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Kingler",
+    "numero": 99,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": true
+  },
+  {
+    "nombre": "Voltorb",
+    "numero": 100,
+    "tipos": [
+      "eléctrico"
+    ],
+    "debilidades": [
+      "tierra"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Electrode",
+    "numero": 101,
+    "tipos": [
+      "eléctrico"
+    ],
+    "debilidades": [
+      "tierra"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Exeggcute",
+    "numero": 102,
+    "tipos": [
+      "planta",
+      "psíquico"
+    ],
+    "debilidades": [
+      "volador",
+      "veneno",
+      "bicho",
+      "fantasma",
+      "fuego",
+      "hielo",
+      "siniestro"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Exeggutor",
+    "numero": 103,
+    "tipos": [
+      "planta",
+      "psíquico"
+    ],
+    "debilidades": [
+      "volador",
+      "veneno",
+      "bicho",
+      "fantasma",
+      "fuego",
+      "hielo",
+      "siniestro"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Cubone",
+    "numero": 104,
+    "tipos": [
+      "tierra"
+    ],
+    "debilidades": [
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Marowak",
+    "numero": 105,
+    "tipos": [
+      "tierra"
+    ],
+    "debilidades": [
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Hitmonlee",
+    "numero": 106,
+    "tipos": [
+      "lucha"
+    ],
+    "debilidades": [
+      "volador",
+      "psíquico",
+      "hada"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Hitmonchan",
+    "numero": 107,
+    "tipos": [
+      "lucha"
+    ],
+    "debilidades": [
+      "volador",
+      "psíquico",
+      "hada"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Lickitung",
+    "numero": 108,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Koffing",
+    "numero": 109,
+    "tipos": [
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Weezing",
+    "numero": 110,
+    "tipos": [
+      "veneno"
+    ],
+    "debilidades": [
+      "tierra",
+      "psíquico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Rhyhorn",
+    "numero": 111,
+    "tipos": [
+      "tierra",
+      "roca"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "acero",
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Rhydon",
+    "numero": 112,
+    "tipos": [
+      "tierra",
+      "roca"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "acero",
+      "agua",
+      "planta",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Chansey",
+    "numero": 113,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Tangela",
+    "numero": 114,
+    "tipos": [
+      "planta"
+    ],
+    "debilidades": [
+      "volador",
+      "veneno",
+      "bicho",
+      "fuego",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Kangaskhan",
+    "numero": 115,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Horsea",
+    "numero": 116,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Seadra",
+    "numero": 117,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Goldeen",
+    "numero": 118,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Seaking",
+    "numero": 119,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Staryu",
+    "numero": 120,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Starmie",
+    "numero": 121,
+    "tipos": [
+      "agua",
+      "psíquico"
+    ],
+    "debilidades": [
+      "bicho",
+      "fantasma",
+      "planta",
+      "eléctrico",
+      "siniestro"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Mr. Mime",
+    "numero": 122,
+    "tipos": [
+      "psíquico",
+      "hada"
+    ],
+    "debilidades": [
+      "veneno",
+      "fantasma",
+      "acero"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Scyther",
+    "numero": 123,
+    "tipos": [
+      "bicho",
+      "volador"
+    ],
+    "debilidades": [
+      "volador",
+      "roca",
+      "fuego",
+      "eléctrico",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Jynx",
+    "numero": 124,
+    "tipos": [
+      "hielo",
+      "psíquico"
+    ],
+    "debilidades": [
+      "roca",
+      "bicho",
+      "fantasma",
+      "acero",
+      "fuego",
+      "siniestro"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Electabuzz",
+    "numero": 125,
+    "tipos": [
+      "eléctrico"
+    ],
+    "debilidades": [
+      "tierra"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Magmar",
+    "numero": 126,
+    "tipos": [
+      "fuego"
+    ],
+    "debilidades": [
+      "tierra",
+      "roca",
+      "agua"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Pinsir",
+    "numero": 127,
+    "tipos": [
+      "bicho"
+    ],
+    "debilidades": [
+      "volador",
+      "roca",
+      "fuego"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Tauros",
+    "numero": 128,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Magikarp",
+    "numero": 129,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Gyarados",
+    "numero": 130,
+    "tipos": [
+      "agua",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "eléctrico"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Lapras",
+    "numero": 131,
+    "tipos": [
+      "agua",
+      "hielo"
+    ],
+    "debilidades": [
+      "lucha",
+      "roca",
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": true
+  },
+  {
+    "nombre": "Ditto",
+    "numero": 132,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Eevee",
+    "numero": 133,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": false,
+    "gigamax": true
+  },
+  {
+    "nombre": "Vaporeon",
+    "numero": 134,
+    "tipos": [
+      "agua"
+    ],
+    "debilidades": [
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Jolteon",
+    "numero": 135,
+    "tipos": [
+      "eléctrico"
+    ],
+    "debilidades": [
+      "tierra"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Flareon",
+    "numero": 136,
+    "tipos": [
+      "fuego"
+    ],
+    "debilidades": [
+      "tierra",
+      "roca",
+      "agua"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Porygon",
+    "numero": 137,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Omanyte",
+    "numero": 138,
+    "tipos": [
+      "roca",
+      "agua"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Omastar",
+    "numero": 139,
+    "tipos": [
+      "roca",
+      "agua"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Kabuto",
+    "numero": 140,
+    "tipos": [
+      "roca",
+      "agua"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Kabutops",
+    "numero": 141,
+    "tipos": [
+      "roca",
+      "agua"
+    ],
+    "debilidades": [
+      "lucha",
+      "tierra",
+      "planta",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Aerodactyl",
+    "numero": 142,
+    "tipos": [
+      "roca",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "acero",
+      "agua",
+      "eléctrico",
+      "hielo"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Snorlax",
+    "numero": 143,
+    "tipos": [
+      "normal"
+    ],
+    "debilidades": [
+      "lucha"
+    ],
+    "megaevolucion": false,
+    "gigamax": true
+  },
+  {
+    "nombre": "Articuno",
+    "numero": 144,
+    "tipos": [
+      "hielo",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "acero",
+      "fuego",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Zapdos",
+    "numero": 145,
+    "tipos": [
+      "eléctrico",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "hielo"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Moltres",
+    "numero": 146,
+    "tipos": [
+      "fuego",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "agua",
+      "eléctrico"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Dratini",
+    "numero": 147,
+    "tipos": [
+      "dragón"
+    ],
+    "debilidades": [
+      "hielo",
+      "dragón",
+      "hada"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Dragonair",
+    "numero": 148,
+    "tipos": [
+      "dragón"
+    ],
+    "debilidades": [
+      "hielo",
+      "dragón",
+      "hada"
+    ],
+    "megaevolucion": false,
+    "gigamax": false
+  },
+  {
+    "nombre": "Dragonite",
+    "numero": 149,
+    "tipos": [
+      "dragón",
+      "volador"
+    ],
+    "debilidades": [
+      "roca",
+      "hielo",
+      "dragón",
+      "hada"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  },
+  {
+    "nombre": "Mewtwo",
+    "numero": 150,
+    "tipos": [
+      "psíquico"
+    ],
+    "debilidades": [
+      "bicho",
+      "fantasma",
+      "siniestro"
+    ],
+    "megaevolucion": true,
+    "gigamax": false
+  }
+]
